@@ -1,2 +1,8 @@
-<h1>My App</h1>
-<p class="description">Keeping track of content i want to watch</p>
+<section>
+    <header>
+        <h1>Media Watch List</h1>
+        <p class="description">Keeping track of content i want to watch</p>
+    </header>
+    <mw-media-item (delete)="onMedeiaItemDelete($event)"
+    [mediaItem]="firstMediaItem"></mw-media-item>
+</section>
